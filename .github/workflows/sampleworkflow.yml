@@ -50,9 +50,7 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZURE_CLIENT }}
-          tenant-id: ${{ secrets.AZURE_TENANTID }}
-          subscription-id: ${{ secrets.SUBSCRIPTION_ID }}
+      
           creds: ${{secrets.AZURE_CREDENTIALS}}
 
 
