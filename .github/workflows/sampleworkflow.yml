@@ -53,6 +53,8 @@ jobs:
           client-id: ${{ secrets.AZURE_CLIENT }}
           tenant-id: ${{ secrets.AZURE_TENANTID }}
           subscription-id: ${{ secrets.SUBSCRIPTION_ID }}
+          creds: ${{secrets.AZURE_CREDENTIALS}}
+
 
 
 
